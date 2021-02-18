@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <!-- Upper Section -->
+    <!-- Navbar -->
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" id = "logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="hero-section">
+            <div class="header-img">
+                <img src="images/imgheader.jpg" alt="header-image" width="100%" height="500px">
+            </div>
+            <div class="transbox"></div>
+            <div class="tagline">
+                <h1>We provide the best the best <br> Car parts in town!</h1>
+                <p>Any Tool you want is at your fingertips</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Middle part -->
+    <div class="container-mid">
+        <!-- About -->
+        <div class="about">
+            <h1>Why 250 AutoPart?</h1><br>
+            <p>
+                The automotive industry requires massive economies of scale to afford the research 
+                and development needed to roll out new models and stay competitive. After record 
+                sales in recent years, manufacturers are now scrambling to absorb slumping sales 
+                and manage the transition to electric and automated vehicles. The automotive industry 
+                requires massive economies of scale to afford the research and development needed to 
+                roll out new models and stay competitive. After record sales in recent years, 
+                manufacturers are now scrambling to absorb slumping sales and manage the transition to 
+                electric and automated vehicles.The automotive industry requires massive economies of scale to afford the research 
+                and development needed to roll out new models and stay competitive.
+            </p>
+        </div><br><br>
+        <!-- FAQ -->
+        <div class="faq-dropdown">
+            <h2>Frequenly Asked Questions</h2><br>
+            <button class="question">How does this service work as part of Nintendo Switch Online?</button>
+            <div class="answer">
+                <p> For the first time ever, players will be able to enjoy these games online. Depending on 
+                    the game, players can engage in online competitive or co-op multiplayer, or take turns 
+                    controlling the action. Friends can even watch each other play single-player games online, 
+                    and "pass the controller" at any time.
+                </p>
+            </div>
+
+            <button class="question">Will any new features be added to these classic games?</button>
+            <div class="answer">
+                <p> For the first time ever, players will be able to enjoy these games online. Depending on 
+                    the game, players can engage in online competitive or co-op multiplayer, or take turns 
+                    controlling the action. Friends can even watch each other play single-player games online, 
+                    and "pass the controller" at any time.
+                </p>
+            </div>
+
+            <button class="question">Have new online multiplayer modes been added to the classic NES games?</button>
+            <div class="answer">
+                <p> For the first time ever, players will be able to enjoy these games online. Depending on 
+                    the game, players can engage in online competitive or co-op multiplayer, or take turns 
+                    controlling the action. Friends can even watch each other play single-player games online, 
+                    and "pass the controller" at any time.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="container-bottom"> 
+        <!-- <div class = "contact">
+             <div class = "newsletter">
+                <form>
+                    <h1>Please Subscribe to our Newsletter:</h1>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email"><br>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+            </div>
+            <div class="map">
+                <img src="map.PNG">
+            </div> 
+        </div> -->
+  
+        <!-- Footer -->
+        <div class="footer">
+            <div class="ftleft">
+                <img src="logo.png" alt="logo" id="logo">
+            </div> 
+            <div class="ftmid">
+                
+            </div>
+            <div class="ftright">
+                <div>
+                    <label for="number">Phone number</label>
+                    <p>0788234522</p>
+                    <label for="email">Email</label>
+                    <p>info@autoparts.com</p>
+                </div>
+            </div>
+        </div>
+        <div class = "bottom">
+            <p>Copyright 2021 © allrights reserved</p>
+        </div>
+    </div>
+
+<!-- JavaScript Code -->
+<script>
+    var qn = document.getElementsByClassName("question");
+    var i;
+
+for (i = 0; i < qn.length; i++) {
+  qn[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>    
+</body>
+</html>
