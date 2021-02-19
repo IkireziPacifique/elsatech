@@ -45,7 +45,8 @@ ul {
     margin: 10px 30px 5px 30px;
     height: 50px;
     text-align: center;
-    border: 1px solid grey;
+    background-color: #eba242;
+    color: white;
 }
 
 /* CSS for the middle section */

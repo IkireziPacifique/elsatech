@@ -42,31 +42,28 @@ ul {
   }
 
 .page-title{
-    /* background-color: thistle; */
     margin: 10px 30px 5px 30px;
     height: 50px;
     text-align: center;
-    border: 1px solid grey;
+    background-color: #eba242;
+    color: white;
 }
 
 /* CSS for the middle section */
 .container-mid{
-    /* background-color: wheat; */
     margin-top: 20px;
-    height: 500px;
+    height: 400px;
 }
 
 .story{
     margin: 10px 30px 5px 30px; 
     padding: 10px;
     text-align: center;
-    /* border: 1px solid grey; */
 
 }
 
 .founders{
     padding: 30px 100px 30px 120px;
-    /* background-color: teal; */
 }
 .owner1{
     margin: 0px 30px 0px 30px;
@@ -86,6 +83,7 @@ ul {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 5px solid #eba242;
 }
 
 /* CSS for the upper section */
@@ -112,7 +110,6 @@ ul {
     width: 33.33%;
     float: right;
     text-align: right;
-    /* padding-right: 30px; */
     padding: 10px 50px;
 }
 
