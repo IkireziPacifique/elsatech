@@ -1,6 +1,6 @@
 <?php
-include_once("CSS/index.html");
-include_once("CSS/about.html");
-include_once("CSS/store.html");
-include_once("CSS/contact.html");
+include ("CSS/index.html");
+include ("CSS/about.html");
+include ("CSS/store.html");
+include ("CSS/contact.html");
 ?>
